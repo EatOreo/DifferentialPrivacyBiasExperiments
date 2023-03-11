@@ -1,0 +1,54 @@
+medical:
+  "":
+    patients:
+      rows: 1462
+      patient:
+        private_id: True
+        type: string
+      birthdate:
+        type: string
+      deathdate:
+        type: string
+      ssn:
+        type: string
+      drivers:
+        type: string
+      passport:
+        type: string
+      prefix:
+        type: string
+      first:
+        type: string
+      last:
+        type: string
+      suffix:
+        type: string
+      maiden:
+        type: string
+      marital:
+        type: string
+      race:
+        type: string
+      ethnicity:
+        type: string
+      gender:
+        type: string
+      birthplace:
+        type: string
+      address:
+        type: string
+    conditions:
+      patient:
+        private_id: True
+        type: string
+      rows: 7040
+      start:
+        type: string
+      stop:
+        type: string
+      encounter:
+        type: string
+      code:
+        type: string
+      description:
+        type: string
